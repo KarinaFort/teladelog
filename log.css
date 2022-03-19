@@ -1,0 +1,70 @@
+/*corpo*/
+
+body {
+    background: rgb(183, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*titulo principal*/
+
+h1 {
+    color: #b3b3b3;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+/*caixa de fora formulario*/
+
+.form {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+    margin: 100px auto 100px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.24);
+}
+
+/*Caixa de dentro do formulario*/
+
+.form input {
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/*botão do formulario */
+
+.form button {
+    background: #ffc107;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 8px 8px rgba(255,225,022,0.6);
+}
+
+/* mensaginha de baixo*/
+
+.form .message {
+    margin: 12px 0 0;
+    color: #b3b3b3;
+}
+
+.form .message a {
+    color: #4c0c60;
+    text-decoration: none;
+}
+
