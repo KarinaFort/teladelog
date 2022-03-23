@@ -1,7 +1,7 @@
 /*corpo*/
 
 body {
-    background: rgb(183, 0, 255);
+    background: rgb(255, 0, 221);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
 h1 {
     color: #b3b3b3;
     font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     text-align: center;
     text-shadow: 0 10px 10px rgba(0,0,0,0.3);
     position: relative;
@@ -25,6 +25,7 @@ h1 {
     background: #fff;
     margin: 100px auto 100px;
     padding: 50px;
+    border-radius: 25px;
     text-align: center;
     box-shadow: 0 20px 20px rgba(0,0,0,0.24);
 }
@@ -45,7 +46,7 @@ h1 {
 /*botão do formulario */
 
 .form button {
-    background: #ffc107;
+    background: #07ffea;
     width: 100%;
     border: 0;
     border-radius: 25px;
@@ -53,14 +54,15 @@ h1 {
     color: #ffffff;
     font-size: 14px;
     cursor: pointer;
-    box-shadow: 0 8px 8px rgba(255,225,022,0.6);
+    box-shadow: 0 8px 8px rgba(22, 255, 216, 0.6);
 }
 
 /* mensaginha de baixo*/
 
 .form .message {
-    margin: 12px 0 0;
+    margin: 8px 0 0;
     color: #b3b3b3;
+    margin-bottom: auto;
 }
 
 .form .message a {
